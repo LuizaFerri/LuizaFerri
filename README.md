@@ -66,7 +66,7 @@ Meus principais projetos são privados, então em vez de vitrine de repositório
 <br />
 
 ## Atividade
-<div align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=LuizaFerri&bg_color=0d1117&color=8b5cf6&line=8b5cf6&point=ffffff&area=true&area_color=8b5cf6&hide_border=true" alt="Gráfico de atividade" width="100%" /> </div> <div align="center"> <img height="160" src="https://github-readme-stats.vercel.app/api?username=LuizaFerri&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&count_private=true" alt="GitHub stats" /> <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LuizaFerri&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Top linguagens" /> </div> <br />
+<div align="center"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LuizaFerri/LuizaFerri/output/github-contribution-grid-snake-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LuizaFerri/LuizaFerri/output/github-contribution-grid-snake.svg" /> <img alt="Gráfico de contribuições animado" src="https://raw.githubusercontent.com/LuizaFerri/LuizaFerri/output/github-contribution-grid-snake.svg" /> </picture> </div> <br />
 
 <br />
 
