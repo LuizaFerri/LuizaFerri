@@ -1,8 +1,14 @@
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Luiza%20Ferri&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Desenvolvedora%20Full-Stack&descSize=20&descAlignY=60" alt="Luiza Ferri" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3B1F58,50:6D28D9,100:A78BFA&height=180&section=header&text=Luiza%20Ferri&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Desenvolvedora%20Full-Stack&descSize=20&descAlignY=60" alt="Luiza Ferri" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3200&pause=900&color=8B5CF6&center=true&vCenter=true&width=640&lines=Ci%C3%AAncia+da+Computa%C3%A7%C3%A3o;React+%C2%B7+Next.js+%C2%B7+Node.js+%C2%B7+TypeScript;Do+banco+de+dados+%C3%A0+interface;C%C3%B3digo+limpo%2C+produto+bem+resolvido" alt="Typing SVG" />
+
+<img
+  src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3200&pause=900&color=A78BFA&center=true&vCenter=true&width=720&lines=Desenvolvedora+Full-Stack;React.js+%C2%B7+Next.js+%C2%B7+TypeScript;Node.js+%C2%B7+APIs+REST+%C2%B7+PostgreSQL;Arquitetura+de+Software+%C2%B7+Performance;Lideran%C3%A7a+T%C3%A9cnica+%C2%B7+Desenvolvimento+Web"
+  alt="Especialidades e tecnologias"
+/>
+
 
 <br />
 
@@ -69,7 +75,7 @@ Meus principais projetos são privados, então em vez de vitrine de repositório
 
 <div align="center">
   <img
-    src="https://raw.githubusercontent.com/LuizaFerri/LuizaFerri/output/github-cat-contributions.svg"
+    src="https://raw.githubusercontent.com/LuizaFerri/LuizaFerri/output/github-cat-contributions.svg?v=2"
     alt="Gatinho pixel art caminhando pelo calendário de contribuições"
     width="100%"
   />
@@ -77,4 +83,4 @@ Meus principais projetos são privados, então em vez de vitrine de repositório
 
 <br />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=90&section=footer" width="100%" alt="footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3B1F58,50:6D28D9,100:A78BFA&height=90&section=footer" width="100%" alt="footer" />
