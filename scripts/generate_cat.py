@@ -26,8 +26,13 @@ QUERY = '''query($login: String!) {
  }
 }'''
 
-LEVEL_COLORS = {'NONE':'#171c25','FIRST_QUARTILE':'#263c38',
- 'SECOND_QUARTILE':'#216b59','THIRD_QUARTILE':'#3fa58a','FOURTH_QUARTILE':'#68dcb2'}
+LEVEL_COLORS = {
+    'NONE': '#171c25',
+    'FIRST_QUARTILE': '#263c38',
+    'SECOND_QUARTILE': '#216b59',
+    'THIRD_QUARTILE': '#3fa58a',
+    'FOURTH_QUARTILE': '#68dcb2'
+}
 
 # An original 18 x 14 pixel-art cat, transparent cells represented by spaces.
 CAT = [
