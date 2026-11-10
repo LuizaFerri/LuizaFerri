@@ -66,7 +66,16 @@ Meus principais projetos são privados, então em vez de vitrine de repositório
 <br />
 
 ## Atividade
-<div align="center"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LuizaFerri/LuizaFerri/output/github-contribution-grid-snake-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LuizaFerri/LuizaFerri/output/github-contribution-grid-snake.svg" /> <img alt="Gráfico de contribuições animado" src="https://raw.githubusercontent.com/LuizaFerri/LuizaFerri/output/github-contribution-grid-snake.svg" /> </picture> </div> <br />
+
+<div align="center">
+  <img
+    src="https://raw.githubusercontent.com/LuizaFerri/LuizaFerri/output/github-cat-contributions.svg"
+    alt="Gatinho pixel art caminhando pelo calendário de contribuições"
+    width="100%"
+  />
+</div>
+
+<br />
 
 <br />
 
