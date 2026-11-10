@@ -4,10 +4,12 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3B1F58,50:6D28D9,100:A78BFA&height=180&section=header&text=Luiza%20Ferri&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Desenvolvedora%20Full-Stack&descSize=20&descAlignY=60" alt="Luiza Ferri" />
 
 
+
 <img
-  src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3200&pause=900&color=A78BFA&center=true&vCenter=true&width=720&lines=Desenvolvedora+Full-Stack;React.js+%C2%B7+Next.js+%C2%B7+TypeScript;Node.js+%C2%B7+APIs+REST+%C2%B7+PostgreSQL;Arquitetura+de+Software+%C2%B7+Performance;Lideran%C3%A7a+T%C3%A9cnica+%C2%B7+Desenvolvimento+Web"
-  alt="Especialidades e tecnologias"
+  src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3200&pause=900&color=A78BFA&center=true&vCenter=true&width=720&lines=5+anos+de+experi%C3%AAncia+em+desenvolvimento+web;React.js+%C2%B7+Next.js+%C2%B7+TypeScript;Node.js+%C2%B7+APIs+REST+%C2%B7+PostgreSQL;Arquitetura+de+Software+%C2%B7+Performance;Lideran%C3%A7a+T%C3%A9cnica+%C2%B7+Desenvolvimento+Web"
+  alt="Experiência e especialidades"
 />
+
 
 
 <br />
