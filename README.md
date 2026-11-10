@@ -68,7 +68,11 @@ Meus principais projetos são privados, então em vez de vitrine de repositório
 ## Atividade
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/LuizaFerri/LuizaFerri/output/github-cat-contributions.svg" alt="Calendário de contribuições com um gatinho pixel art caminhando" />
+  <img
+    src="https://raw.githubusercontent.com/LuizaFerri/LuizaFerri/output/github-cat-contributions.svg"
+    alt="Gatinho pixel art caminhando pelo calendário de contribuições"
+    width="100%"
+  />
 </div>
 
 <br />
