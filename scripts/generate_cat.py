@@ -6,6 +6,7 @@ Python standard library only.
 """
 import json
 import os
+from datetime import date
 from pathlib import Path
 from urllib.request import Request, urlopen
 from xml.sax.saxutils import escape
@@ -84,12 +85,8 @@ def make_svg(weeks, total):
     ]
     for wi, week in enumerate(weeks):
         for day in week['contributionDays']:
-            # API weekday is Sunday=0.
-            weekday = (int(day['weekday']) if 'weekday' in day else None)
-            if weekday is None:
-                # Calendar week partial days are dated, use real weekday from ISO date.
-                from datetime import date
-                weekday = (date.fromisoformat(day['date']).weekday()+1) % 7
+            # Row 0 = Sunday, matching GitHub's calendar.
+            weekday = (date.fromisoformat(day['date']).weekday() + 1) % 7
             x, y = left + wi * step, top + weekday*step
             fill = LEVEL_COLORS.get(day['contributionLevel'], LEVEL_COLORS['NONE'])
             lines.append(f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" rx="2.5" fill="{fill}"><title>{escape(day["date"])}: {day["contributionCount"]} contribuições</title></rect>')

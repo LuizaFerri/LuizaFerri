@@ -1,12 +1,19 @@
 name: Gatinho de contribuições
 
+# Gera o SVG do calendário de contribuições com o gatinho
+# e publica na branch `output`, usada pelo README.
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 6 * * *'
+    - cron: '20 6 * * *' # todo dia às 06:20 UTC
 
 permissions:
   contents: write
+
+concurrency:
+  group: cat-contributions
+  cancel-in-progress: true
 
 jobs:
   generate:
@@ -14,16 +21,19 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+
       - name: Gerar SVG com contribuições reais
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_USERNAME: LuizaFerri
           SVG_OUT: dist/github-cat-contributions.svg
         run: python scripts/generate_cat.py
+
       - name: Publicar na branch output
         uses: peaceiris/actions-gh-pages@v4
         with:
@@ -31,3 +41,4 @@ jobs:
           publish_branch: output
           publish_dir: ./dist
           force_orphan: true
+          commit_message: 'chore: atualiza gatinho de contribuições'
