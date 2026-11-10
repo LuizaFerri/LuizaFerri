@@ -1,0 +1,33 @@
+name: Gatinho de contribuições
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 6 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Gerar SVG com contribuições reais
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USERNAME: LuizaFerri
+          SVG_OUT: dist/github-cat-contributions.svg
+        run: python scripts/generate_cat.py
+      - name: Publicar na branch output
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: ./dist
+          force_orphan: true
